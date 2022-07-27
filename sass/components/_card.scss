@@ -1,0 +1,37 @@
+main{
+    display: flex;
+    flex-direction: column;
+    width: 40rem;
+    background-color: $white;
+    border-radius: 1.5rem;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0.1, 0.1);
+    margin-top: 8rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+  
+    .hero{
+      margin-bottom: 2.5rem;
+      
+  }
+    
+  }
+  @media screen and (max-width:375px) {
+   main{
+    margin-left: 1rem;
+    margin-right: 1rem;
+   }
+}
+
+  .annual-section{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    background-color: $very-pale-blue;
+    margin: 2rem 2rem;
+    padding-left: 2rem;
+    border-radius: 1rem;
+
+    &__plan{
+        padding: 2rem 4rem 2rem 2rem;
+    }
+}

@@ -1,0 +1,47 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: $default-font-size;
+    background-color: $pale-blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.summary-section{
+    text-align: center;
+    line-height: 1.5;
+
+    h2{
+        font-weight: 900;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        color: $desaturated;
+        padding: 0 3.5rem;
+    }
+}
+
+
+.attribution{
+    font-size: 1rem;
+    
+    a{
+        color: $bright-blue;
+    }
+}
+
+@media screen and (max-width:375px) {
+    body{
+        font-size: 1.8rem;
+    }
+
+    .summary-section{
+        padding: 0 2.5rem; 
+        line-height: 1.5;
+    }
+}

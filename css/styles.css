@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+html {
+  font-size: 62.5%; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Red Hat Display', sans-serif;
+  font-size: 1.6rem;
+  background-color: #e0e8ff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+
+.summary-section {
+  text-align: center;
+  line-height: 1.5; }
+  .summary-section h2 {
+    font-weight: 900;
+    margin-bottom: 1.5rem; }
+  .summary-section p {
+    color: #7280a7;
+    padding: 0 3.5rem; }
+
+.attribution {
+  font-size: 1rem; }
+  .attribution a {
+    color: #3829e0; }
+
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 1.8rem; }
+  .summary-section {
+    padding: 0 2.5rem;
+    line-height: 1.5; } }
+
+main {
+  display: flex;
+  flex-direction: column;
+  width: 40rem;
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+  margin-top: 8rem;
+  margin-bottom: 2rem;
+  overflow: hidden; }
+  main .hero {
+    margin-bottom: 2.5rem; }
+
+@media screen and (max-width: 375px) {
+  main {
+    margin-left: 1rem;
+    margin-right: 1rem; } }
+
+.annual-section {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  background-color: #f5f7ff;
+  margin: 2rem 2rem;
+  padding-left: 2rem;
+  border-radius: 1rem; }
+  .annual-section__plan {
+    padding: 2rem 4rem 2rem 2rem; }
+
+a.payment-button {
+  text-align: center;
+  text-decoration: none;
+  background-color: #3829e0;
+  color: #fff;
+  padding: 1.5rem;
+  margin: 0 2rem;
+  border-radius: 1rem;
+  transition: all .2s;
+  margin-bottom: 2rem; }
+  a.payment-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1); }
+  a.payment-button:active {
+    background-color: #3829e0;
+    opacity: 80%;
+    transform: translateY(2px); }
+
+a.change-button {
+  color: #3829e0; }
+  a.change-button:active {
+    color: #3829e0;
+    text-decoration: none; }
+
+a.cancel-button {
+  text-align: center;
+  text-transform: capitalize;
+  text-decoration: none;
+  color: #1f2f56;
+  margin-bottom: 3rem; }

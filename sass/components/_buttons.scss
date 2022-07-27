@@ -1,0 +1,44 @@
+a{
+    &.payment-button{
+        text-align: center;
+        text-decoration: none;
+        background-color: $bright-blue;
+        color: $white;
+        padding: 1.5rem;
+        margin: 0 2rem;
+        border-radius: 1rem;
+        transition: all .2s;
+        margin-bottom: 2rem;
+    
+    
+        &:hover{
+            transform: translateY(-2px);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+        }
+    
+        &:active{
+            background-color: $bright-blue;
+            opacity: 80%;
+            transform: translateY(2px);
+        }
+    
+        
+    }
+
+    &.change-button{
+        color: $bright-blue;
+
+        &:active{
+            color: $bright-blue;
+            text-decoration: none;
+        }
+    }
+
+    &.cancel-button{
+        text-align: center;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: $dark-blue;
+        margin-bottom: 3rem;
+    }
+}
